@@ -6,7 +6,7 @@ namespace MyDictionary
     {
         static void Main(string[] args)
         {
-            MyDict<int, string> favouriteCarsAndMotors = new MyDict<int, string>;
+            MyDict<int, string> favouriteCarsAndMotors = new MyDict<int, string>();
             favouriteCarsAndMotors.Add(1, "Yamaha YZR125");
             favouriteCarsAndMotors.Add(2, "Dodge Dart GT");
             favouriteCarsAndMotors.Add(3, "Chevrolet Camaro S");
